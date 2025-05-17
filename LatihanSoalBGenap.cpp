@@ -103,4 +103,12 @@ public:
         cout << "Level akses petugas " << p->nama << " diubah menjadi " << levelBaru << endl;
     }
 
- 
+    void tampilkanStatistik(const Buku& b, const Peminjam& p) const {
+        lihatStatusBuku(b, *this);
+        lihatTotalPinjaman(p, *this);
+    }
+
+    string getNama() const {
+        return "Wildhan Valerian";
+    }
+};
