@@ -12,4 +12,9 @@ public:
         return *this; // chain function
     }
 
-   
+    string getJudul()
+    {
+        return this->judul;
+    }
+} bukunya;
+
