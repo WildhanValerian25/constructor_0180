@@ -133,3 +133,10 @@ int main() {
     Peminjam user1("Wildhan Valerian", "U123");       // nama diubah jadi "Wildhan Valerian"
     Petugas petugas1("Budi", "P001", "Standar");
     Admin admin1;
+
+    // Menampilkan informasi awal
+    buku1.tampilkanInfo();
+    user1.tampilkanInfo();
+    petugas1.tampilkanInfo();
+
+    
