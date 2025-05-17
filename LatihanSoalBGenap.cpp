@@ -84,3 +84,9 @@ public:
             cout << "Buku belum dipinjam!" << endl;
         }
     }
+
+    void tampilkanInfo() {
+        cout << "Petugas: " << nama << ", ID: " << id << ", Akses: " << levelAkses << endl;
+    }
+
+  
