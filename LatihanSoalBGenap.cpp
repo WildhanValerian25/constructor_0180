@@ -89,4 +89,7 @@ public:
         cout << "Petugas: " << nama << ", ID: " << id << ", Akses: " << levelAkses << endl;
     }
 
-  
+    // Friend class
+    friend class Admin;
+};
+
