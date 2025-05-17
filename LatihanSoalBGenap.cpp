@@ -120,3 +120,7 @@ void lihatStatusBuku(const Buku& b, const Admin& a) {
     cout << "[Admin " << a.getNama() << "] Status Buku: "
          << (b.dipinjam ? "Dipinjam" : "Tersedia") << endl;
 }
+
+void lihatTotalPinjaman(const Peminjam& p, const Admin& a) {
+    cout << "[Admin " << a.getNama() << "] Total Buku Dipinjam: " << p.totalPinjaman << endl;
+}
