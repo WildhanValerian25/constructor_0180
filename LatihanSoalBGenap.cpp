@@ -41,3 +41,9 @@ private:
 
 public:
     Peminjam(string n, string i) : nama(n), id(i), totalPinjaman(0) {}
+
+    void tampilkanInfo() {
+        cout << "Nama: " << nama << ", ID: " << id << ", Total Pinjaman: " << totalPinjaman << endl;
+    }
+
+   
