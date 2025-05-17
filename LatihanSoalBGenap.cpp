@@ -18,3 +18,9 @@ private:
 public:
     Buku(string j, string p) : judul(j), penulis(p), dipinjam(false) {}
 
+    void tampilkanInfo() {
+        cout << "Judul: " << judul << ", Penulis: " << penulis
+             << ", Status: " << (dipinjam ? "Dipinjam" : "Tersedia") << endl;
+    }
+
+ 
