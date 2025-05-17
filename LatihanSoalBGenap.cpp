@@ -64,3 +64,13 @@ private:
 
 public:
     Petugas(string n, string i, string level) : nama(n), id(i), levelAkses(level) {}
+
+    void prosesPinjam(Buku* b, Peminjam* p) {
+        if (!b->dipinjam) {
+            b->dipinjam = true;
+            p->totalPinjaman++;
+            cout << "Buku berhasil dipinjam oleh " << p->nama << endl;
+        } else {
+            cout << "Buku sudah dipinjam!" << endl;
+        }
+    }
