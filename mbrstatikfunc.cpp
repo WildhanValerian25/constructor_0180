@@ -8,3 +8,7 @@ private:
     int id;
     string nama;
 
+public:
+    void setID();
+    void printAll();
+
