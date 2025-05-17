@@ -124,3 +124,12 @@ void lihatStatusBuku(const Buku& b, const Admin& a) {
 void lihatTotalPinjaman(const Peminjam& p, const Admin& a) {
     cout << "[Admin " << a.getNama() << "] Total Buku Dipinjam: " << p.totalPinjaman << endl;
 }
+
+// =====================
+// MAIN FUNCTION
+// =====================
+int main() {
+    Buku buku1("Wildhan Valerian", "Andrea Hirata");   // judul diubah jadi "Wildhan Valerian"
+    Peminjam user1("Wildhan Valerian", "U123");       // nama diubah jadi "Wildhan Valerian"
+    Petugas petugas1("Budi", "P001", "Standar");
+    Admin admin1;
