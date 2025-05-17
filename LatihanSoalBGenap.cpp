@@ -154,3 +154,5 @@ int main() {
     cout << "\n=== Statistik Terbaru oleh Admin ===\n";
     admin1.tampilkanStatistik(buku1, user1);
 
+    return 0;
+}
