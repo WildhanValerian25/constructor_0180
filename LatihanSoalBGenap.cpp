@@ -53,3 +53,14 @@ public:
     friend void lihatTotalPinjaman(const Peminjam& p, const Admin& a);
 };
 
+// =====================
+// CLASS PETUGAS
+// =====================
+class Petugas {
+private:
+    string nama;
+    string id;
+    string levelAkses;
+
+public:
+    Petugas(string n, string i, string level) : nama(n), id(i), levelAkses(level) {}
