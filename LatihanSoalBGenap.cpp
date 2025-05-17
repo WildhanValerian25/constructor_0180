@@ -142,4 +142,6 @@ int main() {
     cout << "\n=== Proses Peminjaman ===\n";
     petugas1.prosesPinjam(&buku1, &user1);
 
-    
+    cout << "\n=== Statistik oleh Admin ===\n";
+    admin1.tampilkanStatistik(buku1, user1);
+
