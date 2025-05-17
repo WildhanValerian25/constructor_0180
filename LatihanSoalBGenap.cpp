@@ -139,4 +139,7 @@ int main() {
     user1.tampilkanInfo();
     petugas1.tampilkanInfo();
 
+    cout << "\n=== Proses Peminjaman ===\n";
+    petugas1.prosesPinjam(&buku1, &user1);
+
     
