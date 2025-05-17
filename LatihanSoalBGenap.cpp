@@ -93,3 +93,14 @@ public:
     friend class Admin;
 };
 
+// =====================
+// CLASS ADMIN
+// =====================
+class Admin {
+public:
+    void ubahLevelAkses(Petugas* p, const string& levelBaru) {
+        p->levelAkses = levelBaru;
+        cout << "Level akses petugas " << p->nama << " diubah menjadi " << levelBaru << endl;
+    }
+
+ 
