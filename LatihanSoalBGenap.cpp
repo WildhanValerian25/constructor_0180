@@ -23,4 +23,10 @@ public:
              << ", Status: " << (dipinjam ? "Dipinjam" : "Tersedia") << endl;
     }
 
- 
+    // Friend class
+    friend class Petugas;
+
+    // Friend function untuk Admin
+    friend void lihatStatusBuku(const Buku& b, const Admin& a);
+};
+
