@@ -74,3 +74,13 @@ public:
             cout << "Buku sudah dipinjam!" << endl;
         }
     }
+
+    void prosesKembali(Buku* b, Peminjam* p) {
+        if (b->dipinjam) {
+            b->dipinjam = false;
+            p->totalPinjaman--;
+            cout << "Buku berhasil dikembalikan oleh " << p->nama << endl;
+        } else {
+            cout << "Buku belum dipinjam!" << endl;
+        }
+    }
