@@ -18,3 +18,6 @@ public:
     }
 } bukunya;
 
+int main()
+{
+    // bukunya.setJudul("Matematika");
