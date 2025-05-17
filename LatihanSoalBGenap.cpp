@@ -145,3 +145,7 @@ int main() {
     cout << "\n=== Statistik oleh Admin ===\n";
     admin1.tampilkanStatistik(buku1, user1);
 
+    cout << "\n=== Ubah Level Akses Petugas oleh Admin ===\n";
+    admin1.ubahLevelAkses(&petugas1, "Tinggi");
+
+   
