@@ -30,3 +30,14 @@ public:
     friend void lihatStatusBuku(const Buku& b, const Admin& a);
 };
 
+// =====================
+// CLASS PEMINJAM
+// =====================
+class Peminjam {
+private:
+    string nama;
+    string id;
+    int totalPinjaman;
+
+public:
+    Peminjam(string n, string i) : nama(n), id(i), totalPinjaman(0) {}
