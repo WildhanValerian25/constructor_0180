@@ -148,4 +148,6 @@ int main() {
     cout << "\n=== Ubah Level Akses Petugas oleh Admin ===\n";
     admin1.ubahLevelAkses(&petugas1, "Tinggi");
 
-   
+    cout << "\n=== Proses Pengembalian ===\n";
+    petugas1.prosesKembali(&buku1, &user1);
+
