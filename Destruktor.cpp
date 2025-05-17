@@ -8,4 +8,7 @@ private:
 public:
     angka(int); // Constructor
     ~angka();   // Destructor
-   
+    void cetakData();
+    void isiData();
+};
+
