@@ -46,4 +46,10 @@ public:
         cout << "Nama: " << nama << ", ID: " << id << ", Total Pinjaman: " << totalPinjaman << endl;
     }
 
-   
+    // Friend class
+    friend class Petugas;
+
+    // Friend function untuk Admin
+    friend void lihatTotalPinjaman(const Peminjam& p, const Admin& a);
+};
+
