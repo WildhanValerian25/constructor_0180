@@ -151,3 +151,6 @@ int main() {
     cout << "\n=== Proses Pengembalian ===\n";
     petugas1.prosesKembali(&buku1, &user1);
 
+    cout << "\n=== Statistik Terbaru oleh Admin ===\n";
+    admin1.tampilkanStatistik(buku1, user1);
+
