@@ -112,3 +112,11 @@ public:
         return "Wildhan Valerian";
     }
 };
+
+// =====================
+// FRIEND FUNCTIONS
+// =====================
+void lihatStatusBuku(const Buku& b, const Admin& a) {
+    cout << "[Admin " << a.getNama() << "] Status Buku: "
+         << (b.dipinjam ? "Dipinjam" : "Tersedia") << endl;
+}
